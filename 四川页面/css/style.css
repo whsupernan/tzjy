@@ -1,0 +1,457 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+@media screen and (min-width: 1000px){
+	.container {
+		  max-width:500px;
+		  min-height;
+		  margin: auto;
+	}
+	a {
+		  text-decoration: none;
+		  color:white;
+	}
+	ul{
+		  list-style: none;
+	}
+	h3{
+		  text-align: center;
+		  color:#AD5357;
+	}
+	#nav{
+		  width:500px;
+		  height:40px;
+		  background-color:#AD5357;
+		  position: fixed;
+		  top:0;
+	}
+	#nav ul{
+		list-style: none;
+	}
+	#nav ul li{
+		float:left;
+
+	}
+	#nav ul li a{
+		line-height:40px;
+		/*display:inline-block;*/
+		margin:0px 30px;
+	}
+	#nav ul li a:hover{
+		color:red;
+	}
+	#tzEdu{
+		height:290px;
+		margin-top:8%
+		/*background-color:green;*/
+	}
+	#tzEdu img{
+		width: 100%;
+		float:left;
+		margin-top:-0.2%;
+	}
+	#scEdu{
+		height:430px;
+		/*background-color: red;*/
+	}
+	#scEdu h3{
+		text-align: center;
+		color:#AD5357;
+		padding-top:20px;
+		padding-bottom: 20px;
+	}
+	.searchEdu ul{
+		padding-left:25px;
+	}
+	#scEdu .searchEdu ul li{
+		float:left;
+		margin-top:-5px;
+	}
+	#scEdu .searchEdu ul li a img{
+		width:150px;
+		height:80px;
+		text-align: center;
+	}
+	#sc_server{
+		height:100px;
+		background-color: red;
+	}
+	#sc_server .city ul{
+		position:relative;
+		top:-120px;
+	}
+	#sc_server .city ul li{
+		float:left;
+		padding-left:15px;
+		padding-top:10px
+	}
+	#sc_server .city ul li a{
+		font-size:14px;
+		color:white;
+	}
+	#sc_server .city ul li a:hover{
+		color:yellow;
+		cursor: pointer;
+	}
+	.message input{
+		border:1px solid #FFFFFF;
+		border-radius: 5px;
+		width:140px;
+		height:30px;
+		margin-left: 12px;
+		margin-top:5px
+	}
+	.message a button{
+		width:170px;
+		height:30px;
+		background-color: rgba(0,0,0,0);
+		color:#E8B41A;
+		border:1px solid #E8B41A;
+		border-radius: 5px;
+	}
+	.message a button:hover{
+		background-color:white;
+		color:red;
+		cursor: pointer;
+	}
+	#school{
+		height:380px;
+		/*background-color: green;*/
+		margin-top:-100px;
+	}
+	#school img{
+		margin-top:-20px;
+		float:none;
+	}
+	#school .btn ul li{
+		float:left;
+	}
+	#school .btn ul li button{
+		border:1px solid #AD5357;
+		border-radius:10px;
+		background-color:white;
+		height:25px;
+		width:110px;
+		font-size: 8px;
+		font-weight:10px;
+		margin-left:12px;
+	}
+	#school .btn ul li button:hover{
+		background-color:lightseagreen;
+	}
+	#school .btn2 ul li{
+		float:left;
+	}
+	#school .btn2 img{
+		/*margin-leftpx;*/
+		margin-top:20px;
+	}
+	#school .btn2 ul{
+		margin-left:118px;
+	}
+	#school .btn2 li{
+		margin-left:12px;
+	}
+	#school .btn2 ul li button{
+		border:1px solid #AD5357;
+		border-radius:10px;
+		background-color:white;
+		height:25px;
+		width:110px;
+		font-size: 8px;
+		font-weight:10px;
+	}
+	#school .btn2 ul li button:hover{
+		background-color:lightseagreen;
+	}
+	#diploma{
+		height:450px;
+		/*background-color: red;*/
+	}
+	#disploma .dip ul li img{
+		float:left;
+	}
+	#disploma .dip{
+		margin-top:-100px;
+	}
+
+	#diploma a button{
+		position:relative;
+		top:-48px;
+		left:300px;
+		border:2px solid #EAB61A;
+		width:150px;
+		height:25px;
+		color:#EAB61A;
+		background-color:rgba(0,0,0,0);
+	}
+	#diploma a button:hover{
+		background-color: white;
+		cursor: pointer;
+		color:red;
+	}
+	#logo{
+		height:310px;
+		/*background-color: green;*/
+		margin-top:-34px;
+	}
+	#logo img{
+		width:150px;
+		height:150px;
+		margin-left:175px;
+	}
+	#logo h2{
+		text-align: center;
+	}
+	#logo p{
+		text-align: center;
+		margin-top:10px;
+	}
+	#footer{
+		height:50px;
+		background-color:#333333;
+		position:fixed;
+		bottom:0;
+		width:500px;
+	}
+	#footer h4{
+		margin-left:10px;
+		color:white;
+		margin-bottom:-6px;
+	}
+	#footer p{
+		color:#EAB61A;
+		margin-left: 5px;
+	}
+	#footer input{
+		width:100px;
+		height:25px;
+	}
+	#footer .click a button{
+		border:2px solid #D4A418;
+		width:140px;
+		height:30px;
+		border-radius: 4px;
+		position:relative;
+		top:-35px;
+		left:160px;
+		background-color: rgba(0,0,0,0);
+		color:#EAB61A
+	}
+	#footer .click a button:hover{
+		background-color:antiquewhite;
+		color:red;
+	}
+}
+
+@media screen and (max-width: 639px){
+	.container {
+		  width: 100%;
+		  margin: auto;
+	} 
+	a {
+		  text-decoration: none;
+		  color:white;
+	}
+	ul{
+		  list-style: none;
+	}
+	h3{
+		  text-align: center;
+		  color:#AD5357;
+	}
+	#nav{
+		  width:100%;
+		  height:40px;
+		  position:fixed;
+		  top:0;
+		  background-color:#AD5357;
+	}
+	#nav ul{
+		list-style: none;
+		width: 100%
+	}
+	#nav ul li{
+		float:left;
+		height: 40px;
+		line-height: 30px;
+		width: 25%;
+	}
+	#nav ul li a{
+		height: 40px;
+		line-height:40px;
+	}
+	#nav ul li a:hover{
+		color:red;
+	}
+	#tzEdu{
+		width: 100%;
+		margin-top:10%;
+	}
+	#tzEdu img{
+		width: 100%;
+	}
+	#scEdu{
+		width: 100%;
+	}
+	#scEdu h3{
+		width: 100%;
+		height: 30px;
+		line-height: 30px;
+		color:#AD5357;
+		margin-bottom: 1%;
+	}
+	#scEdu .searchEdu{
+		width: 100%;
+	}
+	#scEdu .searchEdu ul{
+		width: 100%;
+		float:none;
+		/*height:279px;*/
+	}
+	#scEdu .searchEdu ul li{
+		float: left;
+		width: 33.3%;
+	}
+	#scEdu .searchEdu ul li a{
+		width: 80%;
+	}
+	#scEdu .searchEdu ul li a img{
+		width: 100%;
+	}
+	#sc_server{
+		width:100%;
+	}                                   
+	#sc_server ul{
+		width:100%;
+		float:left;
+		height:1px;
+	}
+	/*#sc_server .city{
+		float:left;
+		
+	}*/                                                 
+	#sc_server .city ul li{
+		float:left;
+		width:12%;
+		line-height: 40px;
+	}
+	#sc_server .city ul li a {
+		color:red;
+		float:left;
+		margin-top:-50px;
+	}
+	#school{
+		width:100%;
+		height:300px;
+	}
+	#school h3{
+		width:100%;
+		height:20px;
+		font-size:15px;
+		line-height:30px;
+		margin-bottom:10px;
+	}
+	#school .btn ul li button{
+		float:left;
+		width:25%;
+		margin-top:1%;
+		border:1px solid #AD5357;
+		border-radius:10px;
+		background-color:white;
+		height:20%;
+		font-size:8px;
+    }
+    #school .btn ul li button:hover{
+		background-color:lightseagreen;
+	}
+	#school .btn2{
+		width:100%;
+		float:left;
+		margin-top:10%;
+	}
+	#school .btn2 ul{
+		float:left;
+		width:90%;
+	}
+	#school .btn2 ul li button{
+		float:left;
+		width:25%;
+		border:1px solid #AD5357;
+		border-radius:10px;
+		background-color:white;
+		height:25%;
+		font-size:8px;
+		margin-left:5%;
+	}
+	#diploma{
+		width:100%;
+	}
+	#diploma a button{
+		border:2px solid #EAB61A;
+		width:150px;
+		height:25px;
+		color:#EAB61A;
+		background-color:rgba(0,0,0,0);
+		float:right;
+		margin:0 auto;
+		margin-top:-8%;
+	}
+	#logo{
+		width:100%;
+		height:300px;
+	}
+	#logo img{
+		/*float:left;*/
+		width:30px
+		height:30px;
+		/*margin:0 auto;*/
+		margin-left:30%;
+	}
+	#logo h2,p{
+		text-align: center;
+	}
+	#footer{
+		position:fixed;
+		bottom:0;
+		width:100%;
+		background-color:#333333 ;
+		float:left;
+		padding-top:5px;
+		padding-bottom:-5px;
+	}
+    #footer h4{
+		margin-left:10px;
+		color:white;
+		float:left;
+		font-size:70%;
+		margin-top:5px;
+	}
+	#footer p{
+		color:#EAB61A;
+		margin-left:-260px;
+		font-size:70%;
+		margin-bottom:5px;
+	}
+	#footer input{
+		position:relative;
+		top:-35px;
+		left:150px;
+		width:180px;
+		height:25px;
+	}
+	#footer .click a button{
+		border:2px solid #D4A418;
+		border-radius: 4px;
+		position:relative;
+		top:-35px;
+		left:160px;
+		background-color: rgba(0,0,0,0);
+		color:#EAB61A
+	}
+	#footer .click a button:hover{
+		background-color:antiquewhite;
+		color:red;
+	}
+}
