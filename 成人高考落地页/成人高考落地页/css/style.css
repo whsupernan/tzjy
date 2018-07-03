@@ -1,0 +1,494 @@
+*{
+	margin:0;
+	padding:0
+}
+
+
+/*如果显示设备尺寸大于1000px执行以下css*/
+@media screen and (min-width: 1000px) {
+	a {
+	text-decoration: none;
+	color:white;
+	cursor:pointer;
+    }
+	ul li{
+	list-style: none;
+	}
+	.container{
+		max-width:500px;
+		min-height;
+		margin:auto;
+		/*background:green;*/
+	}
+	#nav{
+		width:100%;
+		height:40px;
+		background:#2A2624;
+	}
+	#nav ul{
+		width:100%;
+		line-height: 40px;
+	}
+	#nav ul li{
+		float:left;
+		margin-left:48px;
+	}
+	#nav ul li a{
+		/*margin-left:48px;*/
+
+	}
+	#btn{
+		width:100%;
+		height:100px;
+		background-color:white;
+	}
+	#btn a button{
+		width:110px;
+		height:45px;
+		border:1px solid #FFFFFF;
+		border-radius: 10px;
+		background-color: #E23C31;
+		color:white;
+		cursor:pointer;
+	    text-align: center;
+	    margin-top:25px;
+	    margin-left:190px;
+	    font-size:18px;
+	}
+	#search{
+		width:100%;
+		height:360px;
+		background-color:white;
+	}
+	#search ul.text{
+		text-align: left;
+		line-height: 50px;
+		margin-left:20px;
+		}
+	#search ul.text{
+		margin-top:20px;
+	}
+	#search ul.text li{
+		padding-top:5px;
+	}
+	#search ul.btn{
+		float:right;
+	}
+	#search Ul.btn li{
+		margin-top:-340px;
+		width:95%
+	}
+	#search ul.btn li a button{
+		width:110px;
+		height:30px;
+		border:1px solid #FFFFFF;
+		border-radius: 10px;
+		background-color: #E23C31;
+		color:white;
+		cursor:pointer;
+	    text-align: center;
+	    margin-top:25px;
+	    margin-left:130px;
+	    font-size:18px;
+	    cursor: pointer;
+	    float:right;
+    }
+    #Examination{
+    	width:100%;
+    	height:450px;
+    	/*background-color: green;*/
+    }
+    #Examination ul{
+    	margin-top:35px;
+    	width:100%;
+    }
+    #Examination ul li{
+    	float:left;
+    	width:45%;
+    	margin-left:5%;
+    }
+    #Examination ul li a img{
+    	width:90%;
+    	height:90%;
+    	margin-bottom: 17%;
+    }
+      #Consultation{
+    	width:100%;
+    	height:1200px;
+    	/*background-color: greenyellow;*/
+    	margin-top:-50px;
+    }
+    #Consultation ul.img li{
+    	width:100%;
+    	float:left;
+    	width:45%;
+    	margin-left:5%;
+    	margin-top:20%;
+    }
+    #Consultation ul.img li img{
+    	width:90%;
+    	height:90%;
+    }
+    #consultation ul.btn2{
+    	margin-left:-20px;
+    }
+    #Consultation ul.btn2 li{
+    	width:100%;
+    	float:left;
+    	width:40%;
+    	margin-right:10%;
+    }
+     #Consultation{
+    	width:100%;
+    	height:1240px;
+    	/*background-color: greenyellow;*/
+    	margin-top:-50px;
+    }
+    #Consultation ul.img li{
+    	width:100%;
+    	float:left;
+    	width:45%;
+    	margin-left:5%;
+    	margin-top:20%;
+    }
+    #Consultation ul.img li img{
+    	width:90%;
+    	height:90%;
+    }
+    #Consultation ul.btn2{
+    	float:left;
+    	margin-top:-1080px;
+    }
+    #Consultation ul.btn2 li{
+    	width:100%;
+    	float:left;
+    	width:36%;
+    	margin-left:1%;
+    	margin-top:48%;
+    }
+    #Consultation ul.btn2 li a button{
+    	width:100px;
+		height:30px;
+		border:1px solid #FFFFFF;
+		border-radius: 10px;
+		background-color: #E23C31;
+		color:white;
+		cursor:pointer;
+	    text-align: center;
+	    margin-top:15px;
+	    margin-left:130px;
+	    font-size:18px;
+	    cursor: pointer;
+	    float:right;
+    }
+    #quesations{
+    	width:100%;
+    	height:300px;
+    	/*background-color: yellow;*/
+    }
+    #quesations ul li{
+    	padding-left:5%;
+    	margin-bottom: 5%;
+    	margin-top:5%;
+    }
+    #quesations ul li.gray{
+    	background-color: gray;
+    }
+    #quesations ul li.gray a{
+    	color:white;
+    }
+    #quesations ul li.red{
+    	background-color: #EB3F34;
+    }
+    #quesations ul li.red a{
+    	color:white;
+    }
+    #quesations ul li a{
+    	color:black;
+    	font-size:28px;
+    }
+    #quesations ul li:hover{
+    	background-color:black;
+    }
+    #quesations ul li a:hover{
+    	color:white;
+    }
+    #Effect{
+    	width:100%;
+    	height:600px;
+    	/*background-color: red;*/
+    }
+    #Effect ul li{
+    	float:left;
+    	width:30%;
+    	margin-left:3.3%;
+    	margin-top:5%;
+    }
+    #Effect ul li a img{
+    	width:90%;
+    	height:90%;
+    }
+
+    #Effect a button{
+    	width:300px;
+		height:50px;
+		border:1px solid #FFFFFF;
+		border-radius: 10px;
+		background-color: #E23C31;
+		color:white;
+		cursor:pointer;
+	    text-align: center;
+	    margin-top:15px;
+	    margin-left:130px;
+	    font-size:18px;
+	    cursor: pointer;
+	    float:left;
+	    margin-top:5%;
+	    margin-left:20%;
+    }
+    #footer{
+    	width:100%;
+    	height:100px;
+    	background-color:#2C2C2C;
+    }
+    #footer img{
+    	margin-left:38%;
+    	margin-top:3%;
+    }
+    #footer p{
+    	font-size:14px;
+    	color:#CCCCCC;
+    	text-align: center;
+    	margin-bottom: 1%;
+    }
+}
+/*如果显示设备尺寸小于640px执行以下css*/
+@media screen and (max-width: 649px) {
+	a{
+	text-decoration: none;
+	color:white;
+	cursor:pointer;
+    }
+	ul li{
+	list-style: none;
+	}
+	.container{
+		max-width:500px;
+		min-height;
+		margin:auto;
+		/*background:green;*/
+	}
+	#nav{
+		width:100%;
+		height:40px;
+		background:#2A2624;
+		position: fixed;
+		top:0;
+	}
+	#nav ul{
+		width:100%;
+	}
+	#nav ul li{
+		float:left;
+		width:20%;
+		margin-left:4.5%;
+	}
+	#nav ul li a{
+		line-height: 40px;
+	}
+	img.logo_img{
+		margin-top:30px;
+		}
+	#btn{
+		width:100%;
+		height:100px;
+		background-color:white;
+	}
+	#btn a button{
+		width:110px;
+		height:45px;
+		border:1px solid #FFFFFF;
+		border-radius: 10px;
+		background-color: #E23C31;
+		color:white;
+		cursor:pointer;
+	    text-align: center;
+	    margin-top:25px;
+	    margin-left:130px;
+	    font-size:18px;
+	 }
+	#search{
+		width:100%;
+		margin:0 auto;
+		height:260px;
+		/*background-color: red;*/
+	}
+	#search ul.text li{
+		padding-top:20px;
+		margin-left: 5px;
+	}
+	#search ul.text li{
+		text-align:left;
+		line-height: 20px;
+	}
+	#search Ul.btn li{
+		margin-top:-240px;
+		width:98%;
+	}
+	#search ul.btn li a button{
+		width:90px;
+		height:25px;
+		border:1px solid #FFFFFF;
+		border-radius: 10px;
+		background-color: #E23C31;
+		color:white;
+		cursor:pointer;
+	    text-align: center;
+	    margin-top:15px;
+	    margin-left:130px;
+	    font-size:18px;
+	    cursor: pointer;
+	    float:right;
+	}
+	  #Examination{
+    	width:100%;
+    	height:260px;
+    	/*background-color: green;*/
+    }
+    #Examination ul{
+    	margin-top:20px;
+    	width:100%;
+    }
+    #Examination ul li{
+    	float:left;
+    	width:45%;
+    	margin-left:5%;
+    }
+    #Examination ul li a img{
+    	width:90%;
+    	height:90%;
+    	margin-bottom: 17%;
+    }
+    #Consultation{
+    	width:100%;
+    	height:930px;
+    	/*background-color: greenyellow;*/
+    	margin-top:-50px;
+    }
+    #Consultation ul.img li{
+    	width:100%;
+    	float:left;
+    	width:45%;
+    	margin-left:5%;
+    	margin-top:20%;
+    }
+    #Consultation ul.img li img{
+    	width:90%;
+    	height:90%;
+    }
+    #Consultation ul.btn2{
+    	float:left;
+    	margin-top:-810px;
+    }
+    #Consultation ul.btn2 li{
+    	width:100%;
+    	float:left;
+    	width:38%;
+    	margin-right:12%;
+    	margin-top:46%;
+    }
+    #Consultation ul.btn2 li a button{
+    	width:100px;
+		height:30px;
+		border:1px solid #FFFFFF;
+		border-radius: 10px;
+		background-color: #E23C31;
+		color:white;
+		cursor:pointer;
+	    text-align: center;
+	    margin-top:15px;
+	    margin-left:130px;
+	    font-size:18px;
+	    cursor: pointer;
+	    float:right;
+    }
+        #quesations{
+    	width:100%;
+    	height:250px;
+    	/*background-color: yellow;*/
+    }
+    #quesations ul li{
+    	padding-left:5%;
+    	margin-bottom: 5%;
+    	margin-top:5%;
+    }
+    #quesations ul li.gray{
+    	background-color: gray;
+    }
+    #quesations ul li.gray a{
+    	color:white;
+    }
+    #quesations ul li.red{
+    	background-color: #EB3F34;
+    }
+    #quesations ul li.red a{
+    	color:white;
+    }
+    #quesations ul li a{
+    	color:black;
+    	font-size:20px;
+    }
+    #quesations ul li:hover{
+    	background-color: black;
+    }
+    #quesations ul li a:hover{
+    	color:white;
+    }
+    #Effect{
+    	width:100%;
+    	height:450px;
+    	background-color:white;
+    }
+    #Effect ul li{
+    	float:left;
+    	width:30%;
+    	margin-left:3.3%;
+    	margin-top:5%;
+    }
+    #Effect ul li a img{
+    	width:90%;
+    	height:80%;
+    }
+    #Effect a button{
+    	width:210px;
+		height:40px;
+		border:1px solid #FFFFFF;
+		border-radius: 10px;
+		background-color: #E23C31;
+		color:white;
+		cursor:pointer;
+	    text-align: center;
+	    margin-top:15px;
+	    margin-left:130px;
+	    font-size:18px;
+	    cursor: pointer;
+	    float:left;
+	    margin-top:5%;
+	    margin-left:22%;
+    }
+    #footer{
+    	width:100%;
+    	height:100px;
+    	background-color:#2C2C2C;
+    }
+    #footer img{
+    	margin-left:35%;
+    	margin-top:3%;
+    }
+    #footer p{
+    	font-size:14px;
+    	color:#CCCCCC;
+    	text-align: center;
+    	margin-bottom: 1%;
+    }
+}
