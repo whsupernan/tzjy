@@ -1,0 +1,341 @@
+
+@media only screen and (min-width:1000px ) {
+	
+*{
+	margin:0;
+	padding:0;
+}
+ul li{
+	float:left;
+	list-style: none;
+}
+ul li a{
+	text-decoration: none;
+}
+a{
+	cursor: pointer;
+}
+	.container{
+		width:100%;
+		min-height: ;
+	}
+	#nav{
+		/*float:left;*/
+		width:100%;
+		height: 50px;
+		background-color:#ED1653;
+	}
+	#nav ul li img{
+		margin-left:180px;
+		margin-top:-26px;	
+	}
+	#nav ul li {
+		line-height:50px;
+	}
+	#nav ul li a {
+		color:white;
+		margin-left: 30px;
+	}
+	#nav ul li:last-child a{
+		text-align: right;
+		font-size: 16px;
+		font-weight:bold;
+	}
+	#nav ul li a:hover{
+		color:orange;
+	}
+	#tzjy{
+		float:left;
+		width:100%;
+		position: relative;
+		top:-37px;
+	}
+	#tzjy button{
+		font-weight: bold;
+		color:#F7E915;
+		border:2px solid #F7E915;
+		width:200px;
+		height: 30px;
+		background-color: rgba(0,0,0,0);
+		position:relative;
+		left:43%;
+		top:-75px;
+	}
+	#tzjy button:hover{
+		background-color:white;
+		color:red;
+		border:2px solid #ED1653;
+		cursor: pointer;
+	}
+	#school{
+		width:100%;
+		min-height: ;
+		/*background-color:red;*/
+	}
+	#school ul{
+		margin-left:11%;
+	}
+	#school ul li img{
+		width:80%;
+		height: 80%;
+	}
+	#school img{
+		width:80%;
+		height: 80%;
+		margin-left:12%;
+		margin-top:1%;
+	}
+	button.one,button.two{
+		text-decoration: none;
+		color:#ED1653;
+		cursor: pointer;
+		border:2px solid #ED1653;
+		color:#ED1653;
+		width:200px;
+		height: 40px;
+		font-size: 16px;
+		font-weight: bold;
+		border-radius: 3px;
+		text-align: center;
+		background-color: rgb(0,0,0,0);
+		margin-top:5%;
+		margin-bottom: 5%;
+	}
+	button.one{
+		margin-left: 35%;
+	}
+	button.two{
+		background-color: #ED1653;
+		color:white;
+	}
+	button.one:hover{
+		background-color:#ED1653;
+		color:white;
+	}
+	button.two:hover{
+		background-color: white;
+		color:#ED1653;
+	}
+	.img1{
+		float:left;
+	}
+	#promote ul{
+		float:left;
+		margin-top:-22%;
+		margin-left: 17%;	
+	}
+	#promote ul li img{
+		width:80%;
+		height:80%;
+	}
+	#programme{
+		width:600px;
+		height:500px;
+		background-color: white;
+		margin:0 auto;
+	}
+	#programme ul li img{
+		width:60%;
+		height:60%;
+	}
+	#programme ul li{
+		float:left;
+		margin-right: -20px;
+	}
+	#programme .img2 ul li{
+		margin-left:35px;
+		margin-top:60px;
+	}
+	#programme ul li a img:hover{
+		width:70%;
+		height:70%;
+	}
+	button.btn2{
+		width:200px;
+		height:40px;
+		color:white;
+		/*font-weight: bold;*/
+		background-color: #ED1653;
+		margin-left:40%;
+		border:2px solid red;
+		font-size: 16px;
+		border-radius: 3px;
+		float:left;
+		margin-top:-12%;
+		cursor:pointer;
+	}
+	button.btn2:hover{
+		color:#ED1653;
+		background-color: rgba(0,0,0,0);\
+		cursor: pointer;
+	}
+	#major{
+		width:100%;
+		margin-bottom:5%;
+		margin-top: -5%;
+	}
+	#major h2,p{
+		text-align: center;
+		font-family: "楷体";
+	}
+	#major h2{
+		font-size: 30px;
+		font-weight: bold;
+	}
+	#major p{
+		font-size: 16px;
+		font-weight: bold;
+		line-height:40px;
+		margin-bottom:2%;
+	}
+	#major table{
+		border:1px solid #ED1653;
+		width:800px;
+		height:300px;
+		margin:0 auto;
+		border-collapse: collapse;
+	}
+	#major table tr th{
+		color:white;
+		font-weight: 400;
+		font-size: 14px;
+		background-color: #ED1653;
+	
+	}
+	#major table tr td{
+		border-right: 1px solid #ED1653;
+	}
+	#major table tr td{
+		text-align: center;
+	}
+	#major table tr td a{
+		color:black;
+		font-size: 10px;
+		text-decoration: none;
+	}
+	#major table tr td a:hover{
+		font-size:12px;
+		color:red;
+	}
+	#school .sLogo{
+		width:780px;
+		height:300px;
+		margin:0 auto;
+	}
+	#school .sLogo a img{
+		width:10%;
+		height:30%;
+		margin-left:8%;
+		padding-top:3%;
+	}
+	a button.more_school{
+		width:200px;
+		height:35px;
+		color:white;
+		background-color: #ED1653;
+		margin-left:42%;
+		border:2px solid red;
+		font-size: 16px;
+		border-radius: 3px;
+		float:left;
+		letter-spacing:2px;
+		cursor: pointer;
+	}
+	a button.more_school:hover{
+		color:#ED1653;
+		background-color: rgba(0,0,0,0);
+		cursor: pointer;
+	}
+	.img3{
+		margin:2% 0%;
+	}
+	#plan{
+		width:100%;
+		height:60px;
+		background-color: #B50C3C;
+	}
+	#plan a{
+		line-height: 60px;
+		margin:0 auto;
+		margin-top:2%;	
+	}
+	#plan a button{
+		width:200px;
+		height:35px;
+		color:orange;
+		position:relative;
+		top:20%;
+		background-color:white;
+		margin-left:42%;
+		border:2px solid red;
+		border-radius:20px;
+		font-size:14px;
+		border-radius: 3px;
+		float:left;
+		letter-spacing:2px;
+		cursor: pointer;
+	}
+	#know .Tuition{
+		width:800px;
+		height:200px;
+		margin:0 auto;
+	}
+	#know .Tuition li{
+		width:165px;
+		height:30px;
+		background-color:#ED1653;
+		list-style: none;
+		float:left;
+		margin:2% 2%;
+		text-align:center;
+		line-height: 30px;
+	}
+	#know .Tuition li a{
+		text-decoration: none;
+		font-size:4px;
+		color:white;
+	}
+	#know .Tuition li a:hover{
+		color:black;
+	}
+	#quesation{
+		width:700px;
+		height:450px;
+		/*border:1px solid red;*/
+		margin:0 auto;
+		background: #EDEDED;
+		margin-bottom:3%;
+	}
+	#plan{
+		width:100%;
+		height:50px;
+	}
+	#Consultation ul{
+		width:800px;
+		height: 600px;
+		position:relative;
+		top:-470px;
+		left:23%;
+	}
+	#Consultation ul li{
+		width:220px;
+		height:100px;
+		border:1px solid #ED1653;
+		background-color: white;
+		text-align: center;
+		line-height:30px;
+		margin-left:2%;
+		margin-bottom: 2%;
+	}
+	#Consultation ul li p{
+		text-align: center;
+	}
+	#Consultation ul li button{
+		width:80px;
+		height:25px;
+		background-color: darkred;
+		color:white;
+		
+		
+	}
+}

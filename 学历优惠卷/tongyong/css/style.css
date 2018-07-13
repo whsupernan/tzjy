@@ -1,0 +1,92 @@
+*{
+	margin:0;
+	padding:0;
+}
+@media only screen and (min-width:1000px ) {
+	.container{
+		background-color: #E8DC67;
+		max-width: 1580px;
+		margin:auto;
+		min-height: ;
+	}
+	.container img{
+		float:left;
+	}
+	.container p{
+		float:left;
+		margin-top:-18%;
+		margin-left:30%;
+		color:white;
+		font-size:24px;
+	}
+	.container input{
+		float:left;
+		margin-top:-14%;
+		margin-left:33%;
+		border:2px solid red;
+		border-radius: 20px;
+		width:300px;
+		height:38px;
+	}
+	.container button{
+		float:left;
+		margin-top:-14%;
+		margin-left:56%;
+		border:2px solid red;
+		border-radius:15px;
+		width:100px;
+		height:40px;
+		font-size:16px;
+		color:white;
+		background-color: red;
+	}
+	.container button:hover{
+		background-color:darkorange;
+		color:red;
+	}
+}
+@media screen and (max-width:639px ) {
+	.container{
+		background-color: #E8DC67;
+		max-width:500px;
+		margin:auto;
+		min-height: ;
+	}
+	.container img{
+		float:left;
+		width:100%;
+	}
+	.container p{
+		float:left;
+		margin-top:-20%;
+		margin-left:15%;
+		color:white;
+		font-size:10px;
+	}
+	.container input{
+		float:left;
+		margin-top:-12%;
+		margin-left:25%;
+		border:2px solid red;
+		border-radius: 20px;
+		width:135px;
+		height:20px;
+		font-size:6px;
+	}
+	.container button{
+		float:left;
+		margin-top:-12%;
+		margin-left:63%;
+		border:2px solid red;
+		border-radius:10px;
+		width:45px;
+		height:22px;
+		font-size:12px;
+		color:white;
+		background-color: red;
+	}
+	.container button:hover{
+		background-color:darkorange;
+		color:red;
+	}
+}

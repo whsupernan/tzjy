@@ -1,0 +1,672 @@
+*{
+	margin:0;
+	padding:0;
+}
+/*pc端全屏显示*/
+
+@media only screen and (min-width:1000px ) {
+	.container{
+		max-width: 550px;
+		min-height;
+		margin:auto;
+		min-height;
+		/*background-color: #f2f3f5;*/
+	}
+	a{
+		text-decoration: none;
+		cursor: pointer;
+	}
+	ul li{
+		list-style: none;s
+	}
+	#ModalFrame {  /*定义遮罩外观*/
+            width: 100%;
+			height:600%;
+            background-color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index:1000;
+    }
+        #ModalFrame-enter-active, #ModalFrame-leave-active {
+           transition: opacity .5s;
+        }
+        #ModalFrame-enter,#ModalFrame-leave-to /* .fade-leave-active below version 2.1.8 */ {
+           opacity: 0;
+        }
+     div.login{
+            width:600px;
+            height:300px;
+            background-color: rgba(0,0,0,0);
+            border: 1px solid none;
+            position:fixed;
+            top: 50%;
+            left: 50%;
+            margin-top: -200px;
+            margin-left:-300px;
+        }
+     div.login h2{
+            text-align: right;
+            margin: 0px 20px 0px 0px;
+            cursor: pointer;
+            font-size:30px;
+            color:red;
+        }
+     div.login h2:hover{
+     	color:black;
+     }
+	#nav{
+		width:550px;
+		height:45px;
+		background-color:#C83C3C;
+		/*position:fixed;
+		top:0;*/
+	}
+	#nav ul li{
+		width:100%;
+		float:left;
+		width:24.8%;
+		height:45px;
+		border-right: 1px solid white;
+		text-align: center;
+		line-height: 45px;
+		font-size: 18px;
+	}
+	#nav ul li.last{
+		border-right: none;
+	}
+	#nav ul li a{
+		color:white;
+	}
+	#nav ul li a:hover{
+		color:gold;
+	}
+	#pro{
+		width:100%;
+		height:350px;	
+	}
+    #pro ul{
+    	width:100%;
+        list-style:none;
+        margin:0px;
+        padding: 0px;
+      }
+    #pro ul.nav li{
+        float:left;
+        border:1px solid none;
+        border-radius:10px;
+        margin-right:10px;
+        width:20px;
+        height:20px;
+        text-align:center;
+        line-height:20px;
+        position:relative;
+        left:250px;
+        top:-35px;
+      }
+    #pro ul.nav li.current{
+        background-color:#C83C3C;
+      }
+    #pro  ul.pics{
+        list-style:none;
+        margin:0px;
+        padding: 0px;
+        width:550px;
+        height:460px;
+        overflow:hidden;
+     }
+     #edu{
+     	width:100%;
+     	min-height;
+     	background-color:white;
+     }
+     #edu ul{
+     	margin-top:-2%;
+     }
+     #edu ul li{
+     	float:left;
+     	width:29%;
+     	margin-left:4%;
+     	margin-top:6%;
+     }
+     #edu ul li img{
+     	width:90%;
+     	height:90%;
+     }
+     #edu a button{
+     	width:200px;
+     	height:40px;
+     	background-color:#C83C3C;
+     	border:1px solid #FFFFFF;
+     	border-radius: 5px;
+     	font-size:16px;
+     	color:white;
+     	margin:4% 5% 4% 31%;
+     	cursor:pointer;
+     }
+	#edu a button:hover{
+		background-color:darkorange;
+		color:black;
+	}
+	#Consultation{
+		width:100%;
+		min-height: ;
+		background-color:white;
+	}
+	#Consultation a button{
+		width:200px;
+     	height:40px;
+     	background-color:#C83C3C;
+     	border:1px solid #FFFFFF;
+     	border-radius: 5px;
+     	font-size:16px;
+     	color:white;
+     	margin:4% 5% 4% 31%;
+     	cursor:pointer;
+	}
+	#Consultation a button:hover{
+		background-color:darkorange;
+		color:black;
+	}
+	#school{
+		width:100%;
+		background-color:white;
+	}
+	#school ul{
+        list-style:none;
+        margin:0px;
+        padding: 0px;
+     }
+    #school ul li{
+    	position:relative;
+    	left:-20px;
+    }
+    #school ul.nav li{
+        float:left;
+        border:1px solid dimgray;
+        margin-right:10px;
+        width:30px;
+        height:10px;
+        text-align:center;
+        line-height:30px;
+        position:relative;
+        left:195px;
+        top:-40px;
+      }
+    #school ul.nav li.current{
+        background-color:gray;
+      }
+    #school ul.pics{
+        list-style:none;
+        margin:0px;
+        padding: 0px;
+        width:590px;
+        height:350px;
+        overflow:hidden;
+      }
+    #school a button{
+    	width:200px;
+     	height:40px;
+     	background-color:#C83C3C;
+     	border:1px solid #FFFFFF;
+     	border-radius: 5px;
+     	font-size:16px;
+     	color:white;
+     	margin:-20% 5% 4% 31%;
+     	cursor:pointer;
+    }
+    #school a button:hover{
+		background-color:darkorange;
+		color:black;
+	}
+     #major a button{
+    	width:200px;
+     	height:40px;
+     	background-color:#C83C3C;
+     	border:1px solid #FFFFFF;
+     	border-radius: 5px;
+     	font-size:16px;
+     	color:white;
+     	margin:8% 5% 4% 31%;
+     	cursor:pointer;
+    }
+    #major a button:hover{
+		background-color:darkorange;
+		color:black;
+    }
+
+    #search{
+		width:100%;
+		height:360px;
+		background-color:white;
+	}
+	#ques{
+		width:100%;
+		background-color:white;
+	}
+	#ques ul.text{
+		text-align: left;
+		line-height:18px;
+		margin-left:20px;
+		}
+	#ques ul.text{
+		margin-left:5%;
+	}
+	#ques ul.text li{
+		padding-top:10px;
+	}
+	#ques ul.btn{
+		float:right;
+		margin-right:7%;
+	}
+	#ques Ul.btn li{
+		margin-top:-20px;
+		margin-bottom:-50px;
+		width:100%;
+	}
+	#ques ul.btn li a button{
+		border:1px solid black;
+		border-radius: 3px;
+		width:100px;
+		height:20px;
+		cursor: pointer;
+		background-color: rgba(0,0,0,0);
+	}
+	#ques ul.btn li a button:hover{
+		color:white;
+		background-color:dodgerblue;
+	}
+	.qu button{
+		width:200px;
+     	height:40px;
+     	background-color:#C83C3C;
+     	border:1px solid #FFFFFF;
+     	border-radius: 5px;
+     	font-size:16px;
+     	color:white;
+     	margin:5% 5% 5% 31%;
+     	cursor:pointer;
+	}
+	.qu button:hover{
+		background-color:darkorange;
+		color:black;
+	}
+	#edu {
+		width:100%;
+		min-height: ;
+		background-color: white;
+	}
+	#edu .bt1 button{
+		float;left;
+		width:200px;
+     	height:40px;
+     	background-color:#C83C3C;
+     	border:1px solid #FFFFFF;
+     	border-radius: 5px;
+     	font-size:16px;
+     	color:white;
+     	position:relative;
+     	margin:0% 5% 0% 10%;
+     	cursor:pointer;
+	}
+	#edu .bt1 button:hover{
+		background-color:darkorange;
+		color:black;
+	}
+	#edu .bt2 button{
+		width:200px;
+     	height:40px;
+     	background-color:#C83C3C;
+     	border:1px solid #FFFFFF;
+     	border-radius: 5px;
+     	font-size:16px;
+     	color:white;
+     	margin:-50% 5% 5% 53%;
+     	cursor:pointer;
+	}
+	#edu .bt2 button:hover{
+		background-color:darkorange;
+		color:black;
+	}
+	#footer{
+		background-color: white;
+	}
+	#footer a img{
+		margin-left:10%;
+	}
+	#footer h3,p{
+		text-align: center;
+	}
+	#mar1{
+		background-color: gray;
+		margin-top:40px;
+	}
+	#mar1 p{
+		color:#C83C3C;
+		margin-bottom:60px;
+		margin-left:-20%;
+		font-size:16px;
+	}
+	.clickMe button{
+		float:right;
+		width:120px;
+     	height:40px;
+     	background-color:#C83C3C;
+     	border:1px solid #FFFFFF;
+     	border-radius: 5px;
+     	font-size:16px;
+     	color:white;
+     	cursor:pointer;
+     	position: relative;
+     	margin-top:-9%;
+     	margin-right:10%;
+	}
+	.clickMe button:hover{
+		background-color:darkorange;
+		color:black;
+    }
+
+	
+}
+
+
+
+/*移动端全屏显示*/
+@media only screen and (max-width:639px) {
+	.container{
+		max-width: 520px;
+		margin:auto;
+		min-height;
+	}
+	a{
+		text-decoration: none;
+		cursor: pointer;
+	}
+	ul li{
+		list-style: none;
+	}
+	
+	#nav{
+		width:100%;
+		height:45px;
+		background-color:#C83C3C;
+	}
+	#nav ul li{
+		float:left;
+		width:24.7%;
+		height:45px;
+		border-right: 1px solid white;
+		text-align: center;
+		line-height: 45px;
+		font-size: 18px;
+	}
+	#nav ul li.last{
+		border-right: none;
+	}
+	#nav ul li a{
+		color:white;
+	}
+	#nav ul li a:hover{
+		color:yellow;
+	}
+	#pro{
+		width:100%;	
+		min-height: ;
+	}
+    #pro ul{
+    	width:100%;
+        list-style:none;
+        margin:0px;
+        padding: 0px;
+      }
+    #pro ul.nav li{
+        float:left;
+        border:1px solid white;
+        border-radius:10px;
+        margin-right:10px;
+        width:20px;
+        height:20px;
+        text-align:center;
+        line-height:20px;
+        position:relative;
+        left:170px;
+        top:-25px;
+      }
+    #pro ul.nav li.current{
+        background-color:#C83C3C;
+     }
+    #pro  ul.pics{
+        list-style:none;
+        width:100%;
+        margin:0px;
+        padding: 0px;
+    }
+     #edu{
+     	width:100%;
+    	min-height: ;
+     	background-color:white;
+     }
+     #edu ul{
+     	margin-top:-4%;
+     }
+     #edu ul li{
+     	float:left;
+     	width:29%;
+     	margin-left:4%;
+     	margin-top:6%;
+     }
+     #edu ul li img{
+     	width:90%;
+     	height:90%;
+     }
+     #edu a button{
+     	width:180px;
+     	height:40px;
+     	background-color:#C83C3C;
+     	border:1px solid #FFFFFF;
+     	border-radius: 5px;
+     	font-size:16px;
+     	color:white;
+     	cursor:pointer;
+    	margin:7% 26% 7% 25%;
+     }	
+	#edu a button:hover{
+		background-color:darkorange;
+		color:black;
+	}
+	#Consultation a button{
+		width:190px;
+     	height:40px;
+     	background-color:#C83C3C;
+     	border:1px solid #FFFFFF;
+     	border-radius: 5px;
+     	font-size:16px;
+     	color:white;
+     	margin:7% 26% 7% 25%;
+     	cursor:pointer;
+	}
+	#Consultation a button:hover{
+		background-color:darkorange;
+		color:black;
+	}
+	#school a button{
+    	width:200px;
+     	height:40px;
+     	background-color:#C83C3C;
+     	border:1px solid #FFFFFF;
+     	border-radius: 5px;
+     	font-size:16px;
+     	color:white;
+     	margin:8% 18% 4% 23%;
+     	cursor:pointer;
+    }
+    #major{
+    	width:100%;
+    	min-height: ;
+    	background-color: white;
+    }
+    #major a button{
+    	width:200px;
+     	height:40px;
+     	background-color:#C83C3C;
+     	border:1px solid #FFFFFF;
+     	border-radius: 5px;
+     	font-size:16px;
+     	color:white;
+     	margin:8% 18% 4% 23%;
+     	cursor:pointer;
+    }
+    #ques{
+		width:100%;
+		background-color:white;
+	}
+	#ques ul.text{
+		text-align: left;
+		line-height:18px;
+		margin-left:20px;
+		}
+	#ques ul.text{
+		margin-left:10%;
+	}
+	#ques ul.text li{
+		padding-top:10px;
+	}
+	#ques ul.btn{
+		float:right;
+		margin-right:7%;
+	}
+	#ques Ul.btn li{
+		margin-top:-20px;
+		margin-bottom:-50px;
+		width:100%;
+	}
+	#ques ul.btn li a button{
+		border:1px solid black;
+		border-radius: 3px;
+		width:100px;
+		height:20px;
+		cursor: pointer;
+		background-color: rgba(0,0,0,0);
+	}
+	#ques ul.btn li a button:hover{
+		color:white;
+		background-color:dodgerblue;
+	}
+	.qu button{
+		width:200px;
+     	height:40px;
+     	background-color:#C83C3C;
+     	border:1px solid #FFFFFF;
+     	border-radius: 5px;
+     	font-size:16px;
+     	color:white;
+     	margin:5% 5% 5% 25%;
+     	cursor:pointer;
+	}
+	#edu {
+		width:100%;
+		min-height: ;
+		background-color: white;
+	}
+	#edu .bt1 button{
+		float;left;
+		width:150px;
+     	height:40px;
+     	background-color:#C83C3C;
+     	border:1px solid #FFFFFF;
+     	border-radius: 5px;
+     	font-size:16px;
+     	color:white;
+     	position:relative;
+     	margin:0% 5% 0% 10%;
+     	cursor:pointer;
+	}
+	#edu .bt2 button{
+		width:150px;
+     	height:40px;
+     	background-color:#C83C3C;
+     	border:1px solid #FFFFFF;
+     	border-radius: 5px;
+     	font-size:16px;
+     	color:white;
+     	margin:5% 5% 5% 50%;
+     	cursor:pointer;
+	}
+	#footer{
+		width:100%;
+		min-height: ;
+		background-color: white;
+	}
+	#footer a img{
+		margin-left:12%;
+	}
+	#footer h3,p{
+		text-align: center;
+		font-size: 12px;
+		margin-top:10px
+	}
+	#mar1{
+		background-color: gray;
+		margin-top:30px;
+	}
+	#mar1 p{
+		color:#C83C3C;
+		margin-bottom:60px;
+		margin-left:-20%;
+		font-size:16px;
+	}
+	.clickMe button{
+		float:right;
+		width:100px;
+     	height:30px;
+     	background-color:#C83C3C;
+     	border:1px solid #FFFFFF;
+     	border-radius: 5px;
+     	font-size:16px;
+     	color:white;
+     	cursor:pointer;
+     	position: relative;
+     	margin-top:-13%;
+     	margin-right:5%;
+	}
+	.clickMe button:hover{
+		background-color:darkorange;
+		color:black;
+    }
+    #ModalFrame {  /*定义遮罩外观*/
+            width: 100%;
+			height:550%;
+            background-color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index:1000;
+        }
+        #ModalFrame-enter-active, #ModalFrame-leave-active {
+           transition: opacity .5s;
+        }
+        #ModalFrame-enter,#ModalFrame-leave-to /* .fade-leave-active below version 2.1.8 */ {
+           opacity: 0;
+        }
+     div.login{
+            width:300px;
+            height:300px;
+            background-color: rgba(0,0,0,0);
+            border: 1px solid none;
+            position:fixed;
+            top:40%;
+            left:90%;
+            margin-top: -200px;
+            margin-left:-300px;
+        }
+     div.login h2{
+            text-align: right;
+            margin: 0px 20px 0px 0px;
+            cursor: pointer;
+            font-size:30px;
+            color:red;
+        }
+     div.login h2:hover{
+     	color:blue;
+     }
+}

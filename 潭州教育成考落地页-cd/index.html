@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		 <meta content="yes" name="apple-mobile-web-app-capable" />
+		 <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+		<title>潭州成人学历教育中心</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<div class="container">
+			
+			<!--信封弹窗begin-->
+			<div id="ModalFrame" v-show="isShow">
+				<div class="login" >
+					<h2 @click="handleClose" title="关闭">X</h2>
+					<p style="cursor:pointer" onclick="NTKF.im_openInPageChat('kf_9071_1526124232413')"><img src="imgs/信封.png" width="100%"/></p>
+				</div>
+	        </div>
+	        <!--信封弹窗end-->
+				 
+			<!--nav begin-->
+			<div id="nav">
+				<ul>
+					<li><a href="JavaScript:;" class="btn">专升本</a></li>
+					<li><a href="JavaScript:;" class="btn">高起专</a></li>
+					<li><a href="JavaScript:;" class="btn">专本连续</a></li>
+					<li class="last"><a href="JavaScript:;" class="btn">在线咨询</a></li>
+				</ul>
+			</div>
+			<div id="pro">
+			<!--pro begin-->
+				<ul class="pics">
+				  <template v-for="(pic,index) in pics">
+				 <li v-show="pics[index].isCurrent==true"><span onclick="NTKF.im_openInPageChat('kf_9071_1526124232413')" style="cursor: pointer;"><img v-bind:src="pic.url" alt="" width="100%"></span></li>
+				  </template>
+				</ul>
+				    <ul class="nav">
+				        <template v-for="(pic,index) in pics">
+				        <li v-bind:class="{'current':pics[index].isCurrent}">{{ index+1 }}</li>
+				        </template>
+				    </ul>
+			</div>
+			
+			<!--pro end-->
+			
+			<!--Education begin-->
+			<div id="edu">
+				<img src="imgs/3.png" width="100%"/>
+				<ul>
+					<li><a href="JavaScript:;"class="btn"><img src="imgs/03_09.jpg" alt="" /></a></li>
+					<li><a href="JavaScript:;" class="btn"><img src="imgs/03_11.jpg" alt="" /></a></li>
+					<li><a href="JavaScript:;" class="btn"><img src="imgs/03_13.jpg"alt="" /></a></li>
+					<li><a href="JavaScript:;" class="btn"><img src="imgs/03_23.jpg"alt="" /></a></li>
+					<li><a href="JavaScript:;" class="btn"><img src="imgs/03_25.jpg" alt="" /></a></li>
+					<li><a href="JavaScript:;" class="btn"><img src="imgs/03_27.jpg"alt="" /></a></li>
+				</ul>
+				<a href="JavaScript:;" class="btn"><button>在线咨询学历取证详情</button></a>
+				<img src="imgs/4.png" width="100%"/>
+			</div>
+			<!--Education end-->
+			<!--Consultation begin-->
+				<div id="Consultation">
+					<a href="JavaScript:;" class="btn"><img src="imgs/5.png"width="100%"/></a>
+					<a href="JavaScript:;" class="btn"><button>在线咨询学历取证详情</button></a>
+				</div>
+			<!--Consultation end-->
+			<!--school begin-->
+				<div id="school">
+					<img src="imgs/6.png"width="100%"/>
+				<ul class="pics">
+				  <template v-for="(pic,index) in schools">
+				    <li v-show="schools[index].isCurrent==true"><span onclick="NTKF.im_openInPageChat('kf_9071_1526124232413')" style="cursor: pointer;"><img v-bind:src="pic.url" alt="" width="100%"></span></li>
+				  </template>
+				</ul>
+				<ul class="nav">
+				    <template v-for="(pic,index) in schools">
+				        <li v-bind:class="{'current':schools[index].isCurrent}"></li>
+				    </template>
+				</ul>
+				</div>	
+			<!--school end-->
+			<!--major begin-->
+			<div id="major">
+				<a href="JavaScript:;" class="btn"><img src="imgs/11.png" width="100%" alt="" /></a>
+				<a href="JavaScript:;" class="search btn"><button>更多热门专业院校在线咨询</button></a>
+				<img src="imgs/12.png" width="100%"/>
+			</div>
+			<!--major end-->
+			<!--quesation begin-->
+			<div id="ques">
+				<img src="imgs/011.png"width="100%" alt="" />
+					<ul class="text">
+						<li>1 自考报名条件是什么？</li>
+						<li>2 报考费用是多少？</li>
+						<li>3 大约可以多久考到证？</li>
+						<li>4 上班族没时间怎么学习？</li>
+						<li>5 基础差，怎么考证？</li>
+						<li>6 报考流程有哪些？</li>
+						<li>7 自考含金量高吗？</li>
+						<li>8 潭州课堂APP好用吗？</li>
+					</ul>
+					<ul class="btn">
+						<li><a href="JavaScript:;" class="btn"><button>查看答案</button></a></li>
+						<li><a href="JavaScript:;" class="btn"><button>查看答案</button></a></li>
+						<li><a href="JavaScript:;" class="btn"><button>查看答案</button></a></li>
+						<li><a href="JavaScript:;" class="btn"><button>查看答案</button></a></li>
+						<li><a href="JavaScript:;" class="btn"><button>查看答案</button></a></li>
+						<li><a href="JavaScript:;" class="btn"><button>查看答案</button></a></li>
+						<li><a href="JavaScript:;" class="btn"><button>查看答案</button></a></li>
+						<li><a href="JavaScript:;" class="btn"><button>查看答案</button></a></li>
+					</ul>
+			</div>
+					<a href="JavaScript:;" class="qu btn"><button>查询更多学历提升问题</button></a>
+			<!--quesation end-->
+			<div id="edu">
+					<img src="imgs/13.png"width="100%"/>
+					<img src="imgs/16.png"width="100%"/>
+					<a href="JavaScript:;" class="btn" class="bt1"><button>在线体验课程</button></a>
+					<img src="imgs/15.png" width="100%"/>
+					<a href="JavaScript:;" class="btn" class="bt2"><button>查看历年考点题型</button></a>
+			</div>
+			<div id="footer">
+				<img src="imgs/logo.png"width="100%"/>
+				<a href="JavaScript:;" class="btn"><img src="imgs/二维码广告.png" width="80%"/></a>
+				<h3>中国新锐的互联网教育机构</h3>
+				<p>Copyright 2013-2017 All Rights Reserved 版权所有：</p>
+				<p>湖南潭州教育网络科技有限公司 备案号：湘ICP备 15014315 号</p>
+			</div>
+			<div id="footer2">
+				<marquee id="mar1" scrollAmount="2" direction="up" height="60" onmouseout="scollStart()" onmouseover="scollStop()">
+				<a href="JavaScript:;" class="btn"><p>自考报名都需要哪些材料？</p></a>
+				<a href="JavaScript:;" class="btn"><p>都可以报哪些学校？</p></a>
+				<a href="JavaScript:;" class="btn"><p>都可以报哪些专业？</p></a>
+				<a href="JavaScript:;" class="btn"><p>2018年自考最新报考是？</p></a>
+				<a href="JavaScript:;" class="btn"><p>报名时间是什么时候？</p></a>
+			</marquee>
+			<a href="JavaScript:;"class="clickMe btn"><button>点我问问题</button></a>
+			</div>
+		</div>
+		<script type="text/javascript"> var NTKF_PARAM ={"siteid":"kf_9071" /*网站siteid*/,"settingid":"kf_9071_1526124232413" /*代码ID*/, "uid":"" /*会员ID*/,"uname":""/*会员名*/,"userlevel": "0"/*会员等级*/}</script>
+		<script type="text/javascript" src="http://dl.ntalker.com/js/xn6/ntkfstat.js?siteid=kf_9071" charset="utf-8"></script>
+		<script>
+			let Btn=document.getElementsByClassName("btn");
+			for (let i=0;i<Btn.length;i++){
+				Btn[i].onclick=function(){
+					eval("NTKF.im_openInPageChat('kf_9071_1526124232413')");
+				}
+			}
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+		<script>
+			let ModalFrame= {
+				isShow:true
+			};
+			let myData = {
+			    pics:[
+			      {	
+			        url:"imgs/1.png",
+			        isCurrent:false
+			      },
+			      {
+			        url:"imgs/2.png",
+			        isCurrent:true
+			      }
+			    ]
+			};
+			let mySchool={
+				schools:[
+			    	{
+			    		url:"imgs/7.png",
+			    		isCurrent:false
+			    	},
+			    	{
+			    		url:"imgs/8.png",
+			    		isCurrent:true
+			    	},{
+			    		url:"imgs/9.png",
+			    		isCurrent:false
+			    	},{
+			    		url:"imgs/10.png",
+			    		isCurrent:false
+			    	}
+			    ]
+			};
+			let change=function(){
+			    if(myData.pics[0].isCurrent == true){
+			    myData.pics[0].isCurrent = false;
+			    myData.pics[1].isCurrent = true;
+			   }
+				else{
+					  myData.pics[1].isCurrent = false;
+					  myData.pics[0].isCurrent = true;
+				}
+			};
+			let change_second=function(){
+			    if(mySchool.schools[0].isCurrent == true){//如果三秒钟之前第一个有颜色背景，那么三秒钟后就应该将该背景移到第二个li
+			    	mySchool.schools[0].isCurrent = false;//去掉第一个li的背景
+			    	mySchool.schools[1].isCurrent = true;//加上第二个li的背景
+			  	 }
+			   	else if(mySchool.schools[1].isCurrent == true){
+			    	mySchool.schools[1].isCurrent = false;//去掉第二个li的背景
+			    	mySchool.schools[2].isCurrent = true;//加上第三个li的背景
+			  	 }
+			   	else if(mySchool.schools[2].isCurrent == true){
+			    	mySchool.schools[2].isCurrent = false;//去掉第三个个li的背景
+			    	mySchool.schools[3].isCurrent = true;//加上第三个li的背景
+			  	 }
+			   	else{//如果三秒钟之前第一个li具有颜色背景，那么三秒钟后就应该将该背景移到第一个li
+			    	mySchool.schools[3].isCurrent = false;
+			    	mySchool.schools[0].isCurrent = true;
+			   		}
+			    }
+			let app = new Vue({
+			    el:"#pro",
+			    data:myData,
+			    created:function(){
+			        setInterval(change, 2000);
+			    }
+			});
+			let school= new Vue({
+				el:"#school",
+				data:mySchool,
+				 created:function(){
+			    	setInterval(change_second,2000);
+			    }
+			});
+			let model=new Vue({
+				el:"#ModalFrame",
+				data:ModalFrame,
+				methods:{
+                	handleClose: function(){
+                    	ModalFrame.isShow = false; //关闭遮罩
+                    }
+               }
+			});
+		</script>
+	</body>
+</html>
