@@ -52,17 +52,18 @@
 		margin-top:-0.2%;
 	}
 	#scEdu{
-		height:400px;
+		height:510px;
 		/*background-color: red;*/
 	}
 	#scEdu h3{
 		text-align: center;
 		color:#AD5357;
 		padding-top:20px;
-		padding-bottom: 20px;
+		padding-bottom:20px;
 	}
 	.searchEdu ul{
 		padding-left:25px;
+		/*margin-bottom: 20px;*/
 	}
 	#scEdu .searchEdu ul li{
 		float:left;
@@ -74,17 +75,18 @@
 		text-align: center;
 	}
 	#sc_server{
-		height:320px;
+		height:400px;
 		background-color: white;
 
 	}
 	#school{
-		height:350px;
+		height:410px;
 		background-color: white;
-		margin-top:-180px;
+		margin-top:-160px;
 	}
+	
 	#school img{
-		margin-top:0px;
+		margin-top:10px;
 		float:none;
 	}
 	#school .btn ul li{
@@ -355,13 +357,13 @@
 	}
 	#diploma a button{
 		border:2px solid #EAB61A;
-		width:140px;
+		width:130px;
 		height:25px;
 		color:#EAB61A;
 		background-color:rgba(0,0,0,0);
 		float:right;
 		margin:0 auto;
-		margin-top:-8%;
+		margin-top:-10%;
 	}
 	#logo{
 		float:left;
@@ -381,7 +383,7 @@
 		text-align: center;
 	}
 	#footer{
-		height:70px;
+		height:55px;
 		background-color:#333333;
 		position:fixed;
 		bottom:0;
@@ -403,13 +405,13 @@
 	#footer .click a button{
 		width:100%;
 		border:2px solid #D4A418;
-		width:160px;
+		width:150px;
 		letter-spacing:0.2em;
 		height:30px;
 		border-radius: 4px;
 		position:relative;
 		top:-30px;
-		left:110px;
+		left:100px;
 		background-color: rgba(0,0,0,0);
 		color:#EAB61A;
 		float:right;

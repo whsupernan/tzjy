@@ -16,7 +16,9 @@ a{
 	cursor: pointer;
 }
 	.container{
-		width:100%;
+		width:1500px;
+		/*width:100%;*/
+		margin:auto;
 		min-height: ;
 	}
 	#nav{
@@ -69,15 +71,15 @@ a{
 	}
 	#school{
 		width:100%;
-		min-height: ;
-		/*background-color:red;*/
+		height:500px;
+		margin:0 auto;
 	}
 	#school ul{
 		margin-left:11%;
 	}
 	#school ul li img{
 		width:80%;
-		height: 80%;
+		height:80%;
 	}
 	#school img{
 		width:80%;
@@ -119,10 +121,15 @@ a{
 	.img1{
 		float:left;
 	}
+	#promote{
+		margin-top:20px;
+		width:100%;
+		min-height: ;
+	}
 	#promote ul{
 		float:left;
 		margin-top:-22%;
-		margin-left: 17%;	
+		margin-left: 20%;	
 	}
 	#promote ul li img{
 		width:80%;
@@ -130,9 +137,10 @@ a{
 	}
 	#programme{
 		width:600px;
-		height:500px;
+		height:600px;
 		background-color: white;
 		margin:0 auto;
+		
 	}
 	#programme ul li img{
 		width:60%;
@@ -161,7 +169,7 @@ a{
 		font-size: 16px;
 		border-radius: 3px;
 		float:left;
-		margin-top:-12%;
+		margin-top:8%;
 		cursor:pointer;
 	}
 	button.btn2:hover{
@@ -172,26 +180,28 @@ a{
 	#major{
 		width:100%;
 		margin-bottom:5%;
-		margin-top: -5%;
+		margin-top:15%;
 	}
-	#major h2,p{
+	#major h1,p{
 		text-align: center;
 		font-family: "楷体";
+		font-size:40px;	
 	}
 	#major h2{
 		font-size: 30px;
 		font-weight: bold;
 	}
 	#major p{
-		font-size: 16px;
+		font-size: 20px;
 		font-weight: bold;
 		line-height:40px;
 		margin-bottom:2%;
+		color:orange;
 	}
 	#major table{
 		border:1px solid #ED1653;
 		width:800px;
-		height:300px;
+		height:350px;
 		margin:0 auto;
 		border-collapse: collapse;
 	}
@@ -217,10 +227,23 @@ a{
 		font-size:12px;
 		color:red;
 	}
+	#text h2,p{
+		text-align: center;
+	}
+	#text h2{
+		font-size: 50px;
+	}
+	#text p{
+		font-size: 20px;
+		font-weight: bold;
+	}
 	#school .sLogo{
 		width:780px;
 		height:300px;
 		margin:0 auto;
+	}
+	p.p1,p,p2{
+		color:orchid;
 	}
 	#school .sLogo a img{
 		width:10%;
@@ -246,6 +269,24 @@ a{
 		background-color: rgba(0,0,0,0);
 		cursor: pointer;
 	}
+	h3{
+		font-size:50px;
+	}
+	h3.first{
+		text-align:center;
+		line-height:80px;
+	}
+	h3.second{
+		text-align: center;
+		color:#ED1653;
+	}
+	p{
+		font-size:20px;
+		margin-top: 20px;
+		font-weight: bold;
+		line-height: 30px;
+		margin-bottom: 20px;
+	}
 	.img3{
 		margin:2% 0%;
 	}
@@ -262,7 +303,7 @@ a{
 	#plan a button{
 		width:200px;
 		height:35px;
-		color:orange;
+		color:#ED1653;
 		position:relative;
 		top:20%;
 		background-color:white;
@@ -274,6 +315,7 @@ a{
 		float:left;
 		letter-spacing:2px;
 		cursor: pointer;
+		font-weight: bold;
 	}
 	#know .Tuition{
 		width:800px;
@@ -310,12 +352,22 @@ a{
 		width:100%;
 		height:50px;
 	}
+	#Consultation{
+		width:100%;
+		min-height: ;
+	}
+	#Consultation img{
+		float:left;
+	}
 	#Consultation ul{
 		width:800px;
-		height: 600px;
-		position:relative;
-		top:-470px;
-		left:23%;
+		height:100px;
+		/*position:relative;
+		top:-520px;
+		left:22%;*/
+		float:left;
+		margin-top:-34.5%;
+		margin-left:22.5%;
 	}
 	#Consultation ul li{
 		width:220px;
@@ -323,19 +375,45 @@ a{
 		border:1px solid #ED1653;
 		background-color: white;
 		text-align: center;
-		line-height:30px;
-		margin-left:2%;
-		margin-bottom: 2%;
+		/*line-height:30px;*/
+		margin-left:5%;
+		margin-bottom:5%;
 	}
 	#Consultation ul li p{
 		text-align: center;
+		font-size: 12px;
+		/*padding-bottom: -10%;*/
 	}
 	#Consultation ul li button{
 		width:80px;
 		height:25px;
-		background-color: darkred;
-		color:white;
-		
-		
+		background-color:white;
+		color:#ED1653;
+	}
+	#Consultation ul li button:hover{
+		background-color:#ED1653;
+		color:#FFA500;
+	}
+	#f1{
+		width:100%;
+	}
+	#footer{
+		width:100%;
+		height:220px;
+		background-color:#39404B;
+		margin-top:-1%;
+	}
+	#footer .img4{
+		width:50px;
+		height:45px;
+		margin-left:46.5%;	
+		padding-bottom:3%;
+		padding-top:1%;
+	}
+	#footer p{
+		color:#F9F9FA;
+		font-weight: bold;
+		font-size:14px;
+		text-align: center;
 	}
 }
