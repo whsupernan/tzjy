@@ -1,0 +1,46 @@
+
+@media only screen and (min-width:800px ) {
+	*{
+	margin:0px;
+	padding:0px;
+	}
+	#container{
+		max-width: 845px;
+		height: 2476px;
+		margin: auto;
+		position: relative;
+	}
+	/*#container img.qr{
+		position:relative;
+		top:-89%;
+		left:3%;
+	}*/
+}
+
+
+
+@media only screen and (max-width:639px ) {
+	*{
+		margin:0;
+		padding:0;
+	}
+	#container{
+		max-width:500px;
+		height:400px;
+		margin: auto;
+		position: relative;
+	}
+	/*#container .back{
+		position:relative;
+	}
+	#container .qr{
+		width:130px;
+		position: absolute;
+		top:30%;
+		left:3%;
+	}
+	#container img .qr{
+		width:20px;
+		height:20px;
+	}*/
+}

@@ -22,7 +22,7 @@
 	.container input{
 		float:left;
 		margin-top:-14%;
-		margin-left:33%;
+		margin-left:34%;
 		border:2px solid red;
 		border-radius: 20px;
 		width:300px;
@@ -32,7 +32,7 @@
 		float:left;
 		margin-top:-14%;
 		margin-left:56%;
-		border:2px solid red;
+		border:2px solid white;
 		border-radius:15px;
 		width:100px;
 		height:40px;
@@ -46,6 +46,9 @@
 	}
 }
 @media screen and (max-width:639px ) {
+	body{
+		background-color: pink;
+	}
 	.container{
 		background-color: #E8DC67;
 		max-width:500px;

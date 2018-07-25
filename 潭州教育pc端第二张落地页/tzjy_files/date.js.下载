@@ -1,0 +1,22 @@
+
+
+
+var dt = new Date();
+var curYear_start = dt.getFullYear();
+var curMonth_start = dt.getMonth() + 1;
+var curDate_start = dt.getDate();
+dt.setDate(dt.getDate() + 2);
+var curMonth = dt.getMonth() + 1;
+var curDate = dt.getDate();
+
+//JQ获取所有对象
+$(function()
+{
+	$(".curMonth").html(curMonth);
+	$(".curDate").html(curDate);
+	
+	$(".curYear_start").html(curYear_start);
+	$(".curMonth_start").html(curMonth_start);
+	$(".curDate_start").html(curDate_start);		
+	
+});

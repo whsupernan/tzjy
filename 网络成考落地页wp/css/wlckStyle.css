@@ -1,0 +1,510 @@
+*{
+	margin:0;
+	padding:0;
+}
+/*pc端网页显示*/
+@media only screen and (min-width:1000px ) {
+	*{
+		margin:0;
+		padding:0;
+	}
+	a{
+		text-decoration: none;
+	}
+	li{
+		list-style: none;
+	}
+	.container{
+		max-width:640px;
+		min-height: ;
+		margin:0 auto;
+	}
+	#nav{
+		width:640px;
+		height: 64px;
+		background-color: #D54058;
+		position: fixed;
+		top:0;
+		z-index:1;
+	}
+	#nav a{
+		display: block;
+		width:24.8%;
+		height: 64px;
+		color:white;
+		line-height: 64px;
+		float:left;
+		font-size: 20px;
+		text-align: center;
+		border-right: 1px solid white;
+	}
+	#nav a:hover{
+		color:black;
+	}
+	#nav a.last{
+		border-right: none;
+	}
+	#school{
+		width:100%;
+		height:700px;
+		/*background-color:green;*/
+		margin-top:-1%;
+		position:relative;
+	}
+	#school ul{
+		float:left;
+		width:20%;
+		margin-left:5%;
+		margin-top:5%;
+	}
+	#school h1{
+		text-align: center;
+		line-height:100px;
+		font-size:50px;
+	}
+	#school ul a{
+		font-size:15px;
+		text-align: center;
+		color:black;
+		font-weight: bold;
+		line-height:40px;
+		font-family: "楷体";
+	}
+	#school ul a:hover{
+		color:red;
+	}
+	#school a.sch button{
+		display: block;
+		width:300px;
+		height:60px;
+		background-color: #E33F5A;
+		border:1px solid none;
+		border-radius: 10px;
+		font-size: 20px;
+		line-height: 30px;
+		color:white;
+		font-weight: bold;
+		cursor:pointer;
+		margin-left:28%;
+		/*position:absolute;
+		top:61%;*/
+	}
+	#Promote{
+		width:100%;
+		height:1120px;
+		/*background-color: red;*/
+	}
+	#Promote h2{
+		text-align: center;
+		font-size:40px;
+		/*position: absolute;
+		top:70%;
+		left:18%;*/
+		font-weight: 400;
+    }
+    #Promote ul li{
+    	float:left;
+    	width:42%;
+    	margin-left:8%;
+    	margin-bottom:12%;
+    	margin-top:8%;
+    }
+    #major{
+    	width:100%;
+    	height:700px;
+    	/*background-color: green;*/
+    }
+    #major .hot{
+    	width:367px;
+    	height:70px;
+    	background-color: #DC4757;
+    	margin: 0 auto;
+    	margin-bottom:3%;
+    }
+    #major .hot h2{
+    	text-align: center;
+    	font-size: 30px;
+    	line-height:25px;
+    	color:white;
+    }
+    #major ul{
+    	margin-bottom: 5%;
+    }
+    #major ul li{
+    	float:left;
+    	width:22%;
+    	margin-left:2.1%;
+    	margin-top:5%;
+    }
+    #why{
+    	width:100%;
+    	height:1900px;
+    	/*background-color: red;*/
+    }
+    #why .t1{
+    	width:367px;
+    	height:70px;
+    	background-color: #DC4757;
+    	margin: 0 auto;
+    	margin-bottom:5%;
+    }
+    #why .t1 h3{
+    	text-align: center;
+    	font-size:30px;
+    	line-height:70px;
+    	color:white;
+    }
+    #why .pic{
+    	width:540px;
+    	height:287px;
+    	margin:10% auto;
+    }
+    #why .text{
+    	width:520px;
+    	min-height: ;
+    	margin:0 auto;
+    	margin-top:2%;
+    }
+    #why .text h4{
+    	color:white;
+    	font-size:25px;
+    	font-weight: 400;
+    	color:black;
+    	text-indent: 2em;
+    	line-height: 50px;
+    }
+    #why .max{
+    	width:500px;
+    	height:120px;
+    	margin:0 auto;
+    	background-color:#EADD9C;
+    	margin-top:10%;
+    	border-radius:20px;
+    }
+    #why .max h2{
+    	text-align: center;
+    	font-weight: 400;
+    	line-height: 60px;
+    	font-size:32px;
+    	letter-spacing:8px;
+    }
+    #why .max h2 span{
+    	color:#F0493E;
+    }
+    #why a button{
+    	display: block;
+    	width:520px;
+    	height:80px;
+    	border-radius:50px;
+    	background-color: #E33F5A;
+    	border:0px solid none;
+    	color:white;
+    	font-size: 30px;
+    	margin-left:9%;
+    	margin-top:8%;
+    	border:1px solid none;
+    	cursor:pointer;
+    }
+    #why .logo{
+    	width:138px;
+    	height: 122px;
+    	margin:8% auto;
+    }
+    #why h1,h3{
+    	text-align: center;
+    	font-weight: 400;
+    }
+    #footer{
+    	width:640px;
+    	height:80px;.
+    	background-color:gray;
+    	position: fixed;
+    	bottom: 0;
+    }
+    #footer marquee{
+    	/*margin-left:10%;*/
+    	background-color: gray;
+    	width:640px;
+    }
+    #footer marquee a{
+    	line-height:80px;
+    	font-size:20px;
+    	margin-left:10%;
+    }
+    #footer marquee a p{
+    	color:white;
+    }
+    #footer .btn{
+    	width:150px;
+    	height:40px;
+    	margin-top:-10%;
+    	margin-left:55%;
+    }
+    #footer .btn button{
+    	width:150px;
+    	height: 50px;
+    	background-color: #E33F5A;
+    	border-radius:50px;
+    	font-size:18px;
+    	color:white;
+    	cursor: pointer;
+    }
+ }   
+/*移动端网页显示*/
+@media only screen and (max-width:500px) {
+	*{
+		margin:0;
+		padding:0;
+	}
+	a{
+		text-decoration: none;
+	}
+	li{
+		list-style: none;
+	}
+	.container{
+		max-width:500px;
+		min-height: ;
+		margin:0 auto;
+	}
+	#nav{
+		width:100%;
+		height:40px;
+		background-color: #D54058;
+		position: fixed;
+		top:0;
+		z-index:2;
+	}
+	#nav a{
+		display: block;
+		width:24.6%;
+		height:40px;
+		color:white;
+		line-height:40px;
+		float:left;
+		font-size:14px;
+		text-align: center;
+		border-right:1px solid white;
+	}
+	#nav .last{
+		border-right:none;
+	}
+	#nav a:hover{
+		color:black;
+	}
+	#school{
+		width:100%;
+		height:630px;
+		background-color:white;
+		margin-top:-1%;
+		position:relative;
+	}
+	#school ul{
+		float:left;
+		width:23%;
+		margin-left:2%;
+		margin-top:5%;
+	}
+	#school h1{
+		text-align: center;
+		line-height:100px;
+		font-size:35px;
+	}
+	#school ul a{
+		font-size:10px;
+		text-align:center;
+		color:black;
+		font-weight: bold;
+		line-height:40px;
+		font-family: "楷体";
+	}
+	#school ul a:hover{
+		color:red;
+	}
+	#school a.sch button{
+		display: block;
+		width:150px;
+		height:40px;
+		background-color: #E33F5A;
+		border:1px solid none;
+		border-radius: 10px;
+		font-size:14px;
+		line-height: 30px;
+		color:white;
+		font-weight: bold;
+		cursor:pointer;
+		margin-left:28%;
+	}
+	#Promote{
+		width:100%;
+		height:650px;
+		background-color:white;
+	}
+	#Promote img{
+		width:80%;
+		height:80%;
+	}
+	#Promote h2{
+		text-align: center;
+		font-size:25px;
+		font-weight: 400;
+    }
+    #Promote ul li{
+    	float:left;
+    	width:42%;
+    	margin-left:8%;
+    	margin-bottom:12%;
+    	margin-top:8%;
+    }
+    #major{
+    	width:100%;
+    	height:400px;
+    	background-color: white;
+    }
+    #major .hot{
+    	width:90%;
+    	height:70px;
+    	background-color: #DC4757;
+    	margin: 0 auto;
+    	margin-bottom:3%;
+    }
+    #major .hot h2{
+    	text-align: center;
+    	font-size:25px;
+    	line-height:50px;
+    	color:white;
+    }
+    #major ul{
+    	margin-bottom: 5%;
+    }
+    #major ul li{
+    	float:left;
+    	width:22%;
+    	margin-left:2.5%;
+    	margin-top:5%;
+    }
+    #major ul li img{
+    	width:100%;
+    	height:100%;
+    }
+    #why{
+    	width:100%;
+    	height:1630px;
+    	background-color:white;
+    }
+    #why .t1{
+    	width:90%;
+    	height:70px;
+    	background-color: #DC4757;
+    	margin: 0 auto;
+    	margin-bottom:5%;
+    }
+    #why .t1 h3{
+    	text-align: center;
+    	font-size:30px;
+    	line-height:70px;
+    	color:white;
+    }
+    #why .pic{
+    	width:90%;
+    	height:180px;
+    	margin:10% auto;
+    	margin-left:5%;
+    }
+    #why .text{
+    	width:90%;
+    	min-height: ;
+    	margin:0 auto;
+    	margin-top:2%;
+    }
+    #why .text h4{
+    	color:white;
+    	font-size:20px;
+    	font-weight: 400;
+    	color:black;
+    	text-indent: 2em;
+    	line-height: 50px;
+    }
+    #why .max{
+    	width:90%;
+    	height:120px;
+    	margin:0 auto;
+    	background-color:#EADD9C;
+    	margin-top:10%;
+    	border-radius:20px;
+    }
+    #why .max h2{
+    	text-align: center;
+    	font-weight: 400;
+    	line-height: 60px;
+    	font-size:20px;
+    	letter-spacing:8px;
+    }
+    #why .max h2 span{
+    	color:#F0493E;
+    }
+    #why a button{
+    	display: block;
+    	width:200px;
+    	height:50px;
+    	border-radius:50px;
+    	background-color: #E33F5A;
+    	border:0px solid none;
+    	color:white;
+    	font-size:25px;
+    	margin-left:23%;
+    	margin-top:8%;
+    	border:1px solid none;
+    	cursor:pointer;
+    }
+    #why .logo{
+    	width:138px;
+    	height: 122px;
+    	margin:8% auto;
+    }
+    #why h1,h3{
+    	text-align: center;
+    	font-weight: 400;
+    }
+    #why h1{
+    	font-size:22px;
+    }
+    #why h3{
+    	font-size:12px;
+    }
+    #footer{
+    	width:100%;
+    	height:80px;
+    	background-color:gray;
+    	position: fixed;
+    	bottom: 0;
+    }
+    #footer marquee{
+    	/*margin-left:10%;*/
+    	width:500px;
+    	background-color: gray;
+    }
+    #footer marquee a{
+    	line-height:40px;
+    	font-size:16px;
+    }
+    #footer marquee a p{
+    	color:white;
+    }
+    #footer .btn{
+    	width:100px;
+    	height:30px;
+    	margin-top:-15%;
+    	margin-left:53%;
+    }
+    #footer .btn button{
+    	width:100px;
+    	height:30px;
+    	background-color: #E33F5A;
+    	border-radius:50px;
+    	font-size:15px;
+    	color:white;
+    	cursor: pointer;
+    }
+	
+}
