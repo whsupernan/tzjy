@@ -1,0 +1,45 @@
+window.onload=function () {
+    //可加减时间，主要用于页面刷新截止时间  返回TimeObj（对象） month月份 day日期
+    function getTime(delayTime) {
+        var date = new Date();
+        var cutTime = new Date(date);
+        cutTime.setDate(date.getDate()+delayTime);
+        var TimeObj = {
+            year:cutTime.getFullYear(),//当前年份
+            month:cutTime.getMonth()+1,//当前月份
+            day:cutTime.getDate(),//当前日期
+            hour:cutTime.getHours()//当前小时
+        };
+        return TimeObj;
+    }
+    //获取时间
+    var now = getTime(0);
+    var cut_month = document.getElementsByClassName('cut_month')[0];
+    var cut_day = document.getElementsByClassName('cut_day')[0];
+    cut_month.innerHTML=getTime(0).month;
+    cut_day.innerHTML=getTime(0).day;
+    $('.cut_span').text('*'+now.year+'年'+now.month+'月'+now.day+'日'+Number(now.hour+1)+'时:00截止*');
+    //文字轮播对象(后期改对象可接参数方式！！！)
+    var slider_con = document.getElementsByClassName('slider_con')[0];
+    function autoPlay() {
+        var _this = this;
+        this.index = 0;
+        var timer = setInterval(function () {
+
+                _this.index++;
+                if(_this.index===17){
+                    $('.slider_con').css({'transiton':'','top':'0'});
+                    slider_con.style.transition='';
+                    slider_con.style.top=0;
+                    _this.index=1;
+                }
+                setTimeout(function () {
+                    slider_con.style.transition='all .5s';
+                    slider_con.style.top=(_this.index*-2.5)+'rem';
+                },0)
+            },1000);
+
+    }
+
+    autoPlay();
+};

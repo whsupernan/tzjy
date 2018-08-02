@@ -12,9 +12,9 @@
 		<div class="container">
 			
 			<!--信封弹窗begin-->
-			<div id="ModalFrame" v-show="isShow">
+			<div id="ModalFrame" style="display:block;">
 				<div class="login" >
-					<h2 @click="handleClose" title="关闭">X</h2>
+					<h2 title="关闭" id="close">X</h2>
 					<p style="cursor:pointer" onclick="NTKF.im_openInPageChat('kf_9071_1526124232413')"><img src="imgs/信封.png" width="100%"/></p>
 				</div>
 	        </div>
@@ -226,15 +226,20 @@
 			    	setInterval(change_second,2000);
 			    }
 			});
-			let model=new Vue({
-				el:"#ModalFrame",
-				data:ModalFrame,
-				methods:{
-                	handleClose: function(){
-                    	ModalFrame.isShow = false; //关闭遮罩
-                    }
-               }
-			});
+			let Modal = document.getElementById("ModalFrame");
+			let close = document.getElementById("close");
+			close.onclick = function(){
+				Modal.style.display='none';
+			}
+//			let model=new Vue({
+//				el:"#ModalFrame",
+//				data:ModalFrame,
+//				methods:{
+//              	handleClose: function(){
+//                  	ModalFrame.isShow = false; //关闭遮罩
+//                  }
+//             }
+//			});
 		</script>
 	</body>
 </html>
